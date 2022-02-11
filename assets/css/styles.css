@@ -1,0 +1,117 @@
+@media screen and (max-width: 375px) {}  {
+    
+}
+@media screen and (max-width:1440px){
+    
+}
+@font-face {
+    font-family:Outfit ;
+    src: url(../fonts/Outfit/Outfit-VariableFont_wght.ttf);
+    font-weight: 100
+}
+@font-face {
+    font-family:Outfit ;
+    src: url(../fonts/Outfit/Outfit-VariableFont_wght.ttf);
+    font-weight: 200
+}
+@font-face {
+    font-family:Outfit ;
+    src: url(../fonts/Outfit/Outfit-VariableFont_wght.ttf);
+    font-weight: 300
+}
+@font-face {
+    font-family:Outfit ;
+    src: url(../fonts/Outfit/Outfit-VariableFont_wght.ttf);
+    font-weight: 400
+}
+@font-face {
+    font-family:Outfit ;
+    src: url(../fonts/Outfit/Outfit-VariableFont_wght.ttf);
+    font-weight: 500
+}
+@font-face {
+    font-family:Outfit ;
+    src: url(../fonts/Outfit/Outfit-VariableFont_wght.ttf);
+    font-weight: 600
+}
+@font-face {
+    font-family:Outfit ;
+    src: url(../fonts/Outfit/Outfit-VariableFont_wght.ttf);
+    font-weight: 700
+}
+@font-face {
+    font-family:Outfit ;
+    src: url(../fonts/Outfit/Outfit-VariableFont_wght.ttf);
+    font-weight: 800
+}
+@font-face {
+    font-family:Outfit ;
+    src: url(../fonts/Outfit/Outfit-VariableFont_wght.ttf);
+    font-weight: 900
+}
+
+body {
+    height: 100%;
+    width: 99%;
+    font-family:Outfit;
+}
+.container{
+    height: 95vh;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+.main-box {
+    height: 100%;
+    display: flex;
+    align-self: center;
+    background-color: hsl(212, 45%, 89%);
+    margin: 1rem;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 65%;
+    height: fit-content;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    margin: 1rem;
+    max-width: 202px;
+}
+
+}
+.card-header.qr-code-div{
+    width: 10vw !important;
+}
+.qr-code-div{
+    display: flex;
+    align-self: center;
+    margin: 1rem;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+img.qr-code-image {
+    width: 100% !important;
+    border-radius: 10px;
+}
+.card-title{
+    margin: 1rem;
+    
+}
+.card-text{
+    margin: 1rem;
+}
+.card-title > p{
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+.card-text > p{
+    font-size: 10px;
+}
+
